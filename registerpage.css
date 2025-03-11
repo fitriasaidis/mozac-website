@@ -1,0 +1,88 @@
+.wrapper{
+    background-image: url('img/mozacfront.jpg');
+    background-repeat: no-repeat;
+}
+.register form{
+    background-color: rgb(238, 231, 92);
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.register table{
+    background-color: rgb(236, 226, 113);
+    border-radius: 2px; 
+    padding: 10px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.register input[type=submit]{
+    background-color: hsl(221, 94%, 28%);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    margin-top: 10px;
+}
+.register input[type=submit]:hover{
+    opacity: 5;
+    margin-right: auto;
+}
+.register input[type=text], [type=password], [type=email], select{
+    width: 100%;
+    margin: 2px 0px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: white;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.register th{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+}
+.register td{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(236, 226, 113);
+    text-align: center;
+    font-size: 15px;
+    width: 60%;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+}
+.register h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 800;
+}
+.register h5{
+    font-size: smaller;
+    text-align: center;
+}
+.register input[type=radio]{
+    font-size: 8px;
+}
+.register a:link, a:visited{
+    color:hsl(221, 94%, 28%);
+    text-decoration: none;
+}
+body {
+    background-color: #ddd;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

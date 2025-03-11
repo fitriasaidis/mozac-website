@@ -1,0 +1,103 @@
+.tapp form{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tapp input[type=submit]{
+    font-size: 12px;
+    float: none;
+    width: 10%;
+    border-radius: 40px;
+    background-color:rgb(128, 129, 131);
+    border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;   
+    opacity: 1.0;
+}
+.tapp input[type=submit]:hover{
+    opacity: 0.8;
+}
+.tapp input[type=text]{
+    background-color: white;
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.viewapp{
+    width: 68%;
+    float: right;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(242, 241, 240, 0.779);
+    border: 1px solid rgb(242, 241, 240);
+    border-radius: 4px;
+}
+
+.viewapp table{
+    
+    background-color: rgb(236, 226, 113);
+    border: 1px solid rgb(0, 0, 0); 
+    border-radius: 2px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.viewapp th{    
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 10px;
+}
+.viewapp td{
+    background-color: #ddd;
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+.viewapp select{
+    width: 12%;
+    padding: 2px;
+}
+
+.viewtotal{
+    width: 30%;
+    float: left;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.viewtotal table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: none;
+    text-align: center;
+    background-color: rgb(236, 226, 113);
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(234, 227, 148);
+    border-radius: 4px;
+}
+.viewtotal th{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.viewtotal td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+body {
+    background-color: #ddd;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
